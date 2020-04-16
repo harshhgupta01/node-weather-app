@@ -1,0 +1,78 @@
+body {
+    color: #333333;
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+div.main-content {
+    flex-grow: 1;
+    color: #666;
+    margin: 0 100px;
+    /* text-align: center; */
+    /* display: block; */
+}
+
+footer {
+    color: #666;
+    background-color: white;
+    border-top: 1px solid #eeeeee;
+    padding: 16px 8px;
+    margin: 0;
+    margin-top: 16px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 40px 0;
+    color: #333333;
+}
+
+/********* NAVBAR ****************/
+
+header nav {
+    margin: auto;
+    align-self: center;
+    
+}
+
+header nav ul.topnav {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+   
+}
+
+header ul.topnav li {
+    list-style: none;
+    float: left;   
+    cursor: pointer;
+}
+
+header ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 15px 8px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+header ul.topnav li a:hover {
+    background-color: #222F5B;
+    color: #fff;
+}
+
+hr {
+    margin: 0;
+    margin-left: 0;
+}
+
+/******** About Page **********/
+
+.portrait {
+    width: 250px;
+}
