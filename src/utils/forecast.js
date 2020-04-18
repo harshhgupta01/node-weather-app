@@ -19,7 +19,7 @@ const forecast = (latitude, longitude, callback) => {
             //     temperature: curr.temperature,
             //     feelsLike: curr.feelslike
             // })
-            callback(undefined, curr.weather_descriptions+' throughout the day. It is currently '+curr.temperature+' degrees out. And it feels like '+curr.feelslike+' degrees.')
+            callback(undefined, curr.weather_descriptions+' throughout the day. It is currently '+curr.temperature+' degrees out. And it feels like '+curr.feelslike+' degrees. And the humidity is '+curr.humidity+'%.')
         }
     })
 }
